@@ -2,17 +2,18 @@
 ## How to use Entity Framework Core with Postgre SQL database in ASP.NET Core
 
 This solution has two projects.
-- First for the data layer
-- Second is the API
+- EFCore.Data.PostgreSQL (Class Library .NET standard 2.1)
+- EFCore.API (ASP.NET Core 3.1 Web API)
 
 Steps to follow:
-- Create first project (Class Library .NET standard 2.1)
+- Create empty solution project
+- Add data project (Class Library .NET standard 2.1)
 - Add following nuget package
     ```sh
     Npgsql.EntityFrameworkCore.PostgreSQL
     ```
-- Add entities and context in the data layer
-- Create API project
+- Add entities and context in the project
+- Add API project
 - Add following nuget package
     ```sh
     Microsoft.EntityFrameworkCore.Tools
