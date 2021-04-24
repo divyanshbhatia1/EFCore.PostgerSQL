@@ -21,6 +21,7 @@ namespace EFCore.API
 
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.AddControllers();
 			services.ConfigureDbContext(_postgresConfig.ConnectionString);
 		}
 
@@ -35,10 +36,7 @@ namespace EFCore.API
 
 			app.UseEndpoints(endpoints =>
 			{
-				endpoints.MapGet("/", async context =>
-				{
-					await context.Response.WriteAsync("Hello World!");
-				});
+				endpoints.MapControllers();
 			});
 		}
 	}
