@@ -1,5 +1,5 @@
 # Entity Framework Core
-## Entity Framework Core with Postgre SQL
+
 ### How to use Entity Framework Core with Postgre SQL database in ASP.NET Core
 
 Steps to follow:
@@ -23,7 +23,6 @@ Steps to follow:
     Update-Database
     ```
 
-## Entity Framework Core with SQL Server
 ### How to use Entity Framework Core with SQL Server database in ASP.NET Core
 
 Steps to follow:
