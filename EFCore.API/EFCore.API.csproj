@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EFCore.Data.PostgreSQL\EFCore.Data.PostgreSQL.csproj" />
+    <ProjectReference Include="..\EFCore.Data.SQLServer\EFCore.Data.SQLServer.csproj" />
   </ItemGroup>
 
 </Project>

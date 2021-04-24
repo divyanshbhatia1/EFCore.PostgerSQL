@@ -1,8 +1,8 @@
 using EFCore.API.Config;
 using EFCore.Data.PostgreSQL;
+using EFCore.Data.SQLServer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -22,7 +22,8 @@ namespace EFCore.API
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllers();
-			services.ConfigureDbContext(_postgresConfig.ConnectionString);
+			//services.ConfigurePostgreSQLDbContext(_postgresConfig.ConnectionString);
+			services.ConfigureSQLServerDbContext(Configuration.GetConnectionString("SQLServerConnection"));
 		}
 
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
