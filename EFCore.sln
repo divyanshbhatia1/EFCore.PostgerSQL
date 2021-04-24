@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Data.PostgreSQL", "EFCore.Data.PostgreSQL\EFCore.Data.PostgreSQL.csproj", "{2E30C935-4B1F-402A-A750-44A1170EEA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.API", "EFCore.API\EFCore.API.csproj", "{84725ADE-8B37-485F-9101-7D52F89E03A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E30C935-4B1F-402A-A750-44A1170EEA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E30C935-4B1F-402A-A750-44A1170EEA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E30C935-4B1F-402A-A750-44A1170EEA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E30C935-4B1F-402A-A750-44A1170EEA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84725ADE-8B37-485F-9101-7D52F89E03A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84725ADE-8B37-485F-9101-7D52F89E03A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84725ADE-8B37-485F-9101-7D52F89E03A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84725ADE-8B37-485F-9101-7D52F89E03A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {386582E0-397E-442C-B754-A422E900F16D}
+	EndGlobalSection
+EndGlobal
